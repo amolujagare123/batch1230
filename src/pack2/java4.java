@@ -1,13 +1,13 @@
 package pack2;
 
-public class Java4 {
+public class java4 {
+
     int a4;
     double d4;
     char c4;
     String str4;
 
-
-    void display4()
+    void display1()
     {
         System.out.println("a="+a4);
         System.out.println("d="+d4);

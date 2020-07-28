@@ -14,6 +14,18 @@ public class MyClass {
         System.out.println("str="+str);
     }
 
+    MyClass() // contructor overloading
+    {
+
+    }
+
+    MyClass(char c1)
+    {
+        a =34;
+        d=1.2;
+        System.out.println(c1);
+    }
+
     public static void main(String[] args) {
 
         MyClass ob = new MyClass(); // object is an intance of a class

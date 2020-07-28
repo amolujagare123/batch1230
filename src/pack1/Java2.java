@@ -1,11 +1,11 @@
 package pack1;
 
 public class Java2 {
+
     int a2;
     double d2;
     char c2;
     String str2;
-
 
     void display2()
     {
@@ -17,11 +17,8 @@ public class Java2 {
 
     public static void main(String[] args) {
         Java1 ob = new Java1();
-        ob.a1 = 89;
-       // ob.c1='d';
-        ob.display1();
 
+        ob.a1 =12;
+      //  ob.c1 = 'b';
     }
 }
-
-
