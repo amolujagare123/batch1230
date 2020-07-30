@@ -40,7 +40,7 @@ public class MyClass {
         ob1.a = 34;
         ob1.d =34.56;
         ob1.c= 'c';
-        ob1.str="manisha";
+        ob1.str= "Homeworks";
 
         ob1.display();
 

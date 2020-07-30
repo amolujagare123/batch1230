@@ -1,4 +1,4 @@
-package manisha;
+package Homeworks;
 
 public class Additionarray {
     public static void main(String[] args) {

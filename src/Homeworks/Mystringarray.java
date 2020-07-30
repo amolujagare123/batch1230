@@ -1,4 +1,4 @@
-package manisha;
+package Homeworks;
 
 public class Mystringarray {
 public static void main(String [] args) {
