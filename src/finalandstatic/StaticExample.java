@@ -4,7 +4,7 @@ public class StaticExample {
 
     int rno;
     String name;
-    static String college="ITS";
+    public  static String college="ITS";
 
     public static void main(String[] args) {
         StaticExample ob = new StaticExample();
@@ -34,6 +34,9 @@ public class StaticExample {
 
         System.out.println(college);
        // System.out.println(rno);
+
+
+
 
 
 

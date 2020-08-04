@@ -1,6 +1,11 @@
 package pack1;
 
+import finalandstatic.StaticExample;
+import finalandstatic.StaticMethod;
 import pack2.Java3;
+
+import static finalandstatic.StaticExample.*;
+import static finalandstatic.StaticMethod.getUrl;
 
 public class Java1 extends Java3 {
    public int a1;
@@ -8,7 +13,7 @@ public class Java1 extends Java3 {
     private char c1;
     String str1;
 
-     void display1()
+    void display1()
     {
         System.out.println("a="+a1);
         System.out.println("d="+d1);
@@ -18,7 +23,7 @@ public class Java1 extends Java3 {
 
     public static void main(String[] args) {
 
-         Java1 ob = new Java1();
+        /* Java1 ob = new Java1();
          ob.a1 =12;
          ob.d1 =12.3;
          ob.c1 = 'b';
@@ -27,7 +32,14 @@ public class Java1 extends Java3 {
          ob.d3 = 23.45;
          ob.c3 ='j';
 
-         ob.display1();
+         ob.display1();*/
+
+        System.out.println(college);
+
+
+        System.out.println(getUrl());
+
+        System.out.println(getUrl());
 
     }
 }
